@@ -1,0 +1,29 @@
+foto=ImageTk.PhotoImage(Image.open("park.png"))
+arkaplan=Label(image=foto)
+arkaplan.pack()
+
+
+
+def verial():
+    etiket["text"]=Entry.get()
+buton=tk.Button(text="1. nesnemizin orta noktadan uzaklığı",fg="black",bg="green",command=verial)
+buton.place(x=10,y=22)
+buton.pack()
+
+def verial():
+    etiket["text"]=Entry.get()
+buton2=tk.Button(text="2. nesnemizin orta noktadan uzaklığı",fg="black",bg="green",command=verial)
+buton2.pack()
+
+etiket=tk.Label(text="BİZİ TERCİH ETTİĞİNİZ İÇİN TEŞEKÜR EDERİZ")
+etiket.pack()
+
+entry=tk.Entry()
+entry.place(x=10,y=202)
+entry.pack()
+entry2=tk.Entry()
+entry2.place(x=211,y=2131)
+entry2.pack()
+x=tk.Label(text=print(nesne1),fg="white",bg="black",font="times 35 bold")
+x.place(x=390,y=500)
+x.pack()
